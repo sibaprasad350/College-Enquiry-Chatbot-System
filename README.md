@@ -30,13 +30,6 @@
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
           </a> 
          &emsp;
-         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-         </a>
-         &emsp;
-          <a href="https://getbootstrap.com" target="_blank"> 
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
-          </a>
         </p> 
   </li>
  <li> <b> Backend : </b>
@@ -56,7 +49,7 @@
   <li> <b> Database : </b>
      <p align="left"> 
        <a href="https://www.mysql.com/" target="_blank">
-         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
+         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
        </a> 
 </p>
    </li>
@@ -64,55 +57,15 @@
 <br>
 
 ## RUN USING
-`python app.py runserver`
+`python main_with_session.py`
 
 <br>
 
 ## RESULTS : 
-<ol>
-<h3> <li>  <b> Register Page : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/register.png" alt="register" /> </kbd>
-      </p>
-  </li>
-  
-   <h3> <li>  <b> Login Page : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/login.png" alt="login" /> </kbd>
-      </p>
-  </li>
-  
- <h3>   <li> <b> Forgot Password Page : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/forgot_password.png" alt="forgot_password" /> </kbd>
-      </p>
-  </li>
-  
-  
- <h3>  <li>  <b> Chatbot - Default Screen : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/default_screen_chatbot.png" alt="default_screen_chatbot" /> </kbd>
-      </p>
-  </li>
-  
-  <h3> <li>  <b> Chatbot - Query : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/chatbot_query_2.png" alt="chatbot_query_2" /> </kbd>
-      </p>
-  </li>
-  
- <h3>  <li>  <b> Chatbot - About Us : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/about_us.png" alt="about_us" /> </kbd>
-      </p>
-  </li>
-  
-  <h3>  <li> <b> Chatbot - Suggestion Box : </b></h3>
-     <p align="left"> 
-         <kbd><img src="https://github.com/Candida18/College-Enquiry-Chatbot/blob/main/CRCE%20Bot/Images_ss/suggestion_box.png" alt="suggestion_box" /> </kbd>
-      </p>
-  </li>
-  </ol>
 
+![Screenshot (110)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/7077f076-f5cd-4ef6-8332-70cc1d8c4acc)
+![Screenshot (107)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/9749aea1-72d6-4739-a602-841304b2dbe0)
+![Screenshot (108)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/edce93f1-a5f3-419c-93c1-988a0b15752e)
+![Screenshot (109)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/0a2347c5-be39-41fe-9e14-b189deabb876)
 
 
