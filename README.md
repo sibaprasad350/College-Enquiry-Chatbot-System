@@ -56,7 +56,7 @@
   </ul>
 <br>
 
-## RUN USING
+## RUN USING :
 `python main_with_session.py`
 
 <br>
