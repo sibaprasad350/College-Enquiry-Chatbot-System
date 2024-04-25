@@ -1,0 +1,160 @@
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>COLLEGE INFORMATION CHAT BOT SYSTEM </h1>
+    <div>
+      <div id="chatbox">
+        <p class="botText"><span>Hello! My name is P8-bot. I will try my best to provide you information related to our College!</span></p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Type...">
+         <input id="buttonInput" type="submit" value="Send">
+      </div>
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+            if(e.which == 13) {
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+      </script>
+    </div>
+  </body>
+</html>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url('https://getwallpapers.com/wallpaper/full/f/c/0/765159-download-free-technology-background-images-1920x1080.jpg'); /* URL of the background image */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+        background-color: #0F1739; /* Darker blue background color */
+        color: white; /* Default text color */
+        font-family: sans-serif; /* Sans-serif font family */
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        height: 100vh; /* Set the height of the body to full viewport height */
+        margin: 0; /* Remove default margin */
+      }
+
+      /* Styling for the chatbox */
+      #chatbox {
+        max-width: 550px; /* Limiting chatbox width */
+        padding: 20px;
+        background-color: #0a0a0a; /* Dark background for chatbox */
+        border-radius: 10px; /* Rounded corners */
+        overflow-y: auto; /* Enable vertical scrolling */
+        height: 300px; /* Limiting chatbox height */
+        margin-bottom: 20px; /* Add space below the chatbox */
+        border: 2px solid white; /* Add border */
+        margin-bottom: 20px;
+      }
+
+      /* Styling for user messages */
+      .userText {
+        text-align: right; /* Align user messages to the right */
+        color: #7cf87c; /* Bright green color for user messages */
+      }
+
+      /* Styling for bot messages */
+      .botText {
+        text-align: left; /* Align bot messages to the left */
+        color: #F6909D; /* Bright red color for bot messages */
+      }
+
+      /* Styling for text input */
+      #textInput {
+        border-radius: 20px; /* Curved border */
+        padding: 10px; /* Add some padding */
+        margin-right: 10px; /* Add space between input and button */
+        border: 2px solid white; /* Add border */
+        width: 81% ;
+      }
+
+      /* Styling for button */
+      #buttonInput {
+        background-color: #0074D8; /* Sky blue color */
+        color: white; /* Text color */
+        border: none; /* Remove border */
+        border-radius: 20px; /* Curved border */
+        padding: 10px 20px; /* Add padding */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
+
+      /* Hover effect for button */
+      #buttonInput:hover {
+        background-color: #005298; /* Darker shade of sky blue on hover */
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <center>
+      <h1>COLLEGE ENQUIRY CHAT-BOT</h1></center>
+      <div id="chatbox">
+        <div class="botText"><span>Hello! My name is P8-bot. I will try my best to provide you information related to our College!</span></div>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Type...">
+        <input id="buttonInput" type="submit" value="Send">
+      </div>
+    </div>
+    <script>
+      function getBotResponse() {
+        var rawText = $("#textInput").val();
+        var userHtml = '<div class="userText"><span>' + rawText + '</span></div>';
+        $("#textInput").val("");
+        $("#chatbox").append(userHtml);
+        $("#chatbox").animate({ scrollTop: $('#chatbox').prop("scrollHeight") }, 1000); /* Automatically scroll to the bottom */
+        $.get("/get", { msg: rawText }).done(function(data) {
+          var botHtml = '<div class="botText"><span>' + data + '</span></div>';
+          $("#chatbox").append(botHtml);
+          $("#chatbox").animate({ scrollTop: $('#chatbox').prop("scrollHeight") }, 1000); /* Automatically scroll to the bottom */
+        });
+      }
+      $("#textInput").keypress(function(e) {
+        if (e.which == 13) {
+          getBotResponse();
+        }
+      });
+      $("#buttonInput").click(function() {
+        getBotResponse();
+      })
+    </script>
+  </body>
+</html>

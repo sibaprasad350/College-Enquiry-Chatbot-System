@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+	     
+	<category>
+      <pattern>PRESIDENT</pattern>
+      <template>
+		<random>
+			<li>Dr. Satya Prakash Panda is the head of GIET. Over the past 25 years GIET University, Gunupur has achieved many milestones and moving towards fulfilling its vision of transforming the lives of the people by providing comprehensive and qualitative education globally. One man’s sleepless efforts and vision has made this possible; it all started from scratch by Prof. (Dr) Satya Prakash Panda, the venerable founder chairman of the Gandhi Group of Institutions. He is a visionary and an inveterate academician, dared to establish his flagship institution GIET at Gunupur, the tribal hinterland of Odisha, which has acted as the growth engine for this ever-neglected part of the country, leaving an example for others to follow. Recipient of several awards for his services to the nation, Dr. Panda is a humble Gandhian educationalist, philanthropist, social worker who believes and practices excellence in all facets of life. The founder of the legendary Gandhi Group is a multifaceted personality with exceptional qualities as a person as well as scholar. He is the man of intellectual integrity and humanism, a Gandhian, edu-entrepreneur, a human administrator, an ardent advocate, a social worker, a friend to the needy with an open mind and big heart. He has played each of his roles of life with immaculate perfection. A great inspirer and a warm personality have brought colors of rainbow in to the lives of millions.</li>
+			<li>Dr. Satya Prakash Panda is the head of GIET. Over the past 25 years GIET University, Gunupur has achieved many milestones and moving towards fulfilling its vision of transforming the lives of the people by providing comprehensive and qualitative education globally. One man’s sleepless efforts and vision has made this possible; it all started from scratch by Prof. (Dr) Satya Prakash Panda, the venerable founder chairman of the Gandhi Group of Institutions. He is a visionary and an inveterate academician, dared to establish his flagship institution GIET at Gunupur, the tribal hinterland of Odisha, which has acted as the growth engine for this ever-neglected part of the country, leaving an example for others to follow. Recipient of several awards for his services to the nation, Dr. Panda is a humble Gandhian educationalist, philanthropist, social worker who believes and practices excellence in all facets of life. The founder of the legendary Gandhi Group is a multifaceted personality with exceptional qualities as a person as well as scholar. He is the man of intellectual integrity and humanism, a Gandhian, edu-entrepreneur, a human administrator, an ardent advocate, a social worker, a friend to the needy with an open mind and big heart. He has played each of his roles of life with immaculate perfection. A great inspirer and a warm personality have brought colors of rainbow in to the lives of millions.</li>
+			<li>Dr. Satya Prakash Panda is the head of GIET. Over the past 25 years GIET University, Gunupur has achieved many milestones and moving towards fulfilling its vision of transforming the lives of the people by providing comprehensive and qualitative education globally. One man’s sleepless efforts and vision has made this possible; it all started from scratch by Prof. (Dr) Satya Prakash Panda, the venerable founder chairman of the Gandhi Group of Institutions. He is a visionary and an inveterate academician, dared to establish his flagship institution GIET at Gunupur, the tribal hinterland of Odisha, which has acted as the growth engine for this ever-neglected part of the country, leaving an example for others to follow. Recipient of several awards for his services to the nation, Dr. Panda is a humble Gandhian educationalist, philanthropist, social worker who believes and practices excellence in all facets of life. The founder of the legendary Gandhi Group is a multifaceted personality with exceptional qualities as a person as well as scholar. He is the man of intellectual integrity and humanism, a Gandhian, edu-entrepreneur, a human administrator, an ardent advocate, a social worker, a friend to the needy with an open mind and big heart. He has played each of his roles of life with immaculate perfection. A great inspirer and a warm personality have brought colors of rainbow in to the lives of millions.</li>
+		</random>
+	  </template>
+    </category>
+    <category>
+      <pattern>HOD OF DEPARTMENT CSE</pattern>
+      <template>
+		<random>
+			<li>Dr. Kakita Murali Gopal has earned his Ph.D. degree from SSSUTMS, Bhopal in Auguest, 2020, obtained his M. Tech. (C.S.E.) degree from BPUT in 2007.     </li>
+			<li> Dr. K. Murali Gopal is currently serving as Associate Professor and Head of Computer Science and Engineering Department of GIET University. He has earned his Ph.D. degree from SSSUTMS, Bhopal in August, 2020, obtained his M.Tech. (Computer Engineering) degree from BPUT, Odisha in 2007 and B.Tech Degree in Computer Science and Engineering from Berhampur University in 2003 . His research interests include Big Data Analysis, Computer Vision, Machine Learning. His primary research is focused on exploring different machine learning techniques in solving several challenging problems in Image Analysis and Hyperspectral Image. Total Teaching experience is 19 years. Dr. K Murali Gopal is a self motivated and self driven leader and has taken several initiatives for the development of the department.</li>
+		</random>
+	  </template>
+    </category>
+    <category>
+      <pattern>HOD OF CSE</pattern>
+      <template>
+		<random>
+			<li> Dr. K. Murali Gopal is currently serving as Associate Professor and Head of Computer Science and Engineering Department of GIET University. He has earned his Ph.D. degree from SSSUTMS, Bhopal in August, 2020, obtained his M.Tech. (Computer Engineering) degree from BPUT, Odisha in 2007 and B.Tech Degree in Computer Science and Engineering from Berhampur University in 2003 . His research interests include Big Data Analysis, Computer Vision, Machine Learning. His primary research is focused on exploring different machine learning techniques in solving several challenging problems in Image Analysis and Hyperspectral Image. Total Teaching experience is 19 years. Dr. K Murali Gopal is a self motivated and self driven leader and has taken several initiatives for the development of the department.</li>
+		</random>
+	  </template>
+    </category>
+    <category>
+      <pattern>COE</pattern>
+	  <template> 
+		<random>
+			<li>Please goto this link to get details of COE: http://www.giet.edu/leadership/</li>
+            <li>Have a look over here to get details of COE: http://www.giet.edu/leadership/</li>
+            <li>Click on this link to get details of COE: http://www.giet.edu/leadership/</li>
+        </random>			
+	  </template>
+	</category>
+	<category>
+		<pattern>AUTONOMY TOPPER LIST</pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get autonomy topper's list : http://www.giet.edu/departments/chemical-engineering/about-us/achievements/</li>
+                <li>Have a look over here to get autonomy topper's list : http://www.giet.edu/departments/chemical-engineering/about-us/achievements/</li>
+				<li>Click on this link to get autonomy topper's list : http://www.giet.edu/departments/chemical-engineering/about-us/achievements/</li>
+	        </random>
+	  </template>
+	</category>
+	<category>
+		<pattern>DOCUMENTS ISSUED COE STUDENT PASSES AUTONOMY EXAMS</pattern>
+			<template>
+				<random>
+					<li>Please goto this link to get list of documents : http://www.giet.edu/examinations/document-verification/</li>
+					<li>Have a look over here to get list of documents : http://www.giet.edu/examinations/document-verification/</li>
+					<li>Click on this link to get list of documents : http://www.giet.edu/examinations/document-verification/</li>
+                </random>
+	   </template>
+	</category>
+	<category>
+		<pattern>FORMAT WRITING APPLICATION COE</pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get the format for writing application to COE :http://www.giet.edu/blog/tips-to-write-a-college-admissions-essay/</li>
+				<li>Have a look over here to get the format for writing application to COE :http://www.giet.edu/blog/tips-to-write-a-college-admissions-essay/</li>
+				<li>Click on this link to get the format for writing application to COE :http://www.giet.edu/blog/tips-to-write-a-college-admissions-essay/</li>
+		    </random>
+	  </template>
+	</category>
+	<category>
+		<pattern>EXAMINATION COMMITTEE</pattern>
+		<template>
+			<random>
+				<li>Please goto this link to get the details about C.O.E : http://www.giet.edu/examinations/</li>
+				<li>Have a look over here to get the details about C.O.E : http://www.giet.edu/examinations/</li>
+				<li>Click on this link to get the details about C.O.E : http://www.giet.edu/examinations/</li>
+		    </random>
+	  </template>
+	</category>
+	<category>
+		<pattern>LINK RESULTS TIMETABLES</pattern>
+		<template>
+			<random>
+				<li>Please goto this link : http://www.giet.edu/examinations/schedule/</li>
+				<li>Have a look over here : http://www.giet.edu/examinations/schedule/</li>
+				<li>Click on this link : http://www.giet.edu/examinations/schedule/</li>
+		    </random>   
+	  </template>
+	</category>
+</aiml>
+	
+		
