@@ -64,8 +64,11 @@
 ## RESULTS : 
 
 ![Screenshot (110)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/7077f076-f5cd-4ef6-8332-70cc1d8c4acc)
+
 ![Screenshot (107)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/9749aea1-72d6-4739-a602-841304b2dbe0)
+
 ![Screenshot (108)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/edce93f1-a5f3-419c-93c1-988a0b15752e)
+
 ![Screenshot (109)](https://github.com/sibaprasad350/College-Enquiry-Chatbot-System/assets/117096489/0a2347c5-be39-41fe-9e14-b189deabb876)
 
 
